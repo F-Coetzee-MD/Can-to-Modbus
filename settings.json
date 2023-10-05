@@ -1,6 +1,6 @@
 {
   "usb port": "USB0",
   "plc ip": "192.168.1.100",
-  "plc port": "502",
+  "plc port": 502,
   "max buffer size": 1000
 }
