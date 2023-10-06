@@ -14,10 +14,8 @@ def connect_to_tcp_server():
   return 0
 
 def close_tcp_connection():
-  # Close the socket
   client_socket.close()
 
-def send_message_to_plc():
-  message = "";
+def send_message_to_plc(message):
   client_socket.send(message.encode())
   return 0
